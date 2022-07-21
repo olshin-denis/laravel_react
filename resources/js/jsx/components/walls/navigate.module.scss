@@ -1,0 +1,65 @@
+@import "./resources/css/Nullstile";
+
+body{
+    background: gray;
+}
+.nav{
+    //width: 100%;
+    background: black;
+    color: aliceblue;
+    //display: flex;
+    //flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+
+}
+
+.auth {
+    //background: black;
+    //color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.position{
+    //position: absolute;
+    //top: 5px;
+    //left: 5px;
+    margin: 5px;
+    padding: 0 0 0 5px;
+}
+
+//.linkO{
+//    display: flex;
+//    flex-direction: row;
+//    justify-content: flex-end;
+//    align-items: center;
+//    padding-left: 35%;
+//    //padding-right: 50%;
+//    font-size: 23px;
+//}
+
+.links{
+
+    display: flex;
+    flex-direction: row;
+    //justify-content: flex-end;
+    align-items: center;
+    padding: 10px 100px 10px 0;
+    //padding-left: 23%;
+    //padding-right: 50%;
+    font-size: 23px;
+}
+
+.link{
+    padding: 0 5px 0 5px;
+    text-decoration: underline;
+}
+
+.link:hover{
+    color: aliceblue;
+    text-decoration: underline aliceblue;
+}

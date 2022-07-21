@@ -1,0 +1,39 @@
+.button{
+    padding: 2px;
+    margin: 5px 5px 0 0;
+    font-size: 15px;
+}
+
+.authLogin{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    position: absolute;
+    //left: 50%;
+    //top: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.49);
+    width: 100%;
+    height: 100%;
+    margin: -5px;
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
