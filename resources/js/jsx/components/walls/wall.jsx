@@ -17,6 +17,7 @@ const Wall = () => {
 
         // const iden = data.id
 
+    
 
         useEffect(() => {
             getId()
